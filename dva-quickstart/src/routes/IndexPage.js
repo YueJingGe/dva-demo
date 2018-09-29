@@ -10,7 +10,7 @@ function IndexPage() {
       <div className={styles.welcome} />
       <ul className={styles.list}>
         <li>To get started, edit <code>src/index.js</code> and save to reload.</li>
-        <li><Link to="/products">进入例子</Link></li>
+        <li><Link to="/products">列表删除</Link> <Link to="/users">用户管理</Link></li>
       </ul>
     </div>
   );
