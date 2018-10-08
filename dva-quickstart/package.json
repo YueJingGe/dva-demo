@@ -11,6 +11,8 @@
     "babel-plugin-import": "^1.9.1",
     "dva": "^2.4.0",
     "dva-loading": "^2.0.5",
+    "path-to-regexp": "^2.4.0",
+    "query-string": "^6.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },

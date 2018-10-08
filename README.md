@@ -1,6 +1,7 @@
 <!-- TOC -->
 
 - [dva-demo](#dva-demo)
+  - [启动](#启动)
   - [是什么](#是什么)
   - [核心](#核心)
   - [做什么](#做什么)
@@ -33,6 +34,8 @@
 学习dva框架
 
 官网： https://dvajs.com/guide/
+
+## 启动
 
 ```bash
 cd dva-quickstart
