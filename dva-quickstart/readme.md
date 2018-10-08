@@ -51,3 +51,12 @@ history.listen(({ pathname, search }) => {
  */ 
 <Route path="/users/:page?" exact component={Users} />
 ```
+
+### effects中的方法想要获取state
+
+```js
+/**
+ * 使用 ‘select’ 方法, 注意不要忘记加命名空间
+ */ 
+const page = yield select(state => state.users.page);
+```

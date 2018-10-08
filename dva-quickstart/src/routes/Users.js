@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'dva';
-import { routerRedux } from 'dva/router';
+import { routerRedux, Link } from 'dva/router';
 import { Button } from 'antd';
 import  UserList from '../components/UserList';
 import  UserItem from '../components/UserItem';
@@ -44,6 +44,9 @@ function Users ({ dispatch, users}) {
     });
   }
   return <div> 
+    <Link to="/">
+      <Button type="primary" icon="rollback" style={{margin: '14px 0 14px 14px'}}>返回</Button>
+    </Link>
     <Button type="primary" style={{margin: '14px'}} onClick={add}>新建</Button>
 
     <UserList loading={loading} list={list} total={Number(total)} page={Number(page)} pageSize={Number(pageSize)} 
